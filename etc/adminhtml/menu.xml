@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="CodeDaily::mobile"
+             title="Mobile"
+             module="CodeDaily_Mobile"
+             resource="Magento_Backend::content"
+             sortOrder="800"
+             action="mastering" />
+
+        <add id="CodeDaily::home_configuration"
+             title="Home Configuration"
+             module="CodeDaily_Mobile"
+             sortOrder="0"
+             action="codedaily/home/index"
+             parent="CodeDaily::mobile"
+             resource="Magento_Backend::content" />
+    </menu>
+</config>
