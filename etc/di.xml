@@ -8,4 +8,11 @@
             </argument>
         </arguments>
     </type>
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="codedaily_home_grid_data_source" xsi:type="string">CodeDaily\Mobile\Model\ResourceModel\Widget\Grid\Collection</item>
+            </argument>
+        </arguments>
+    </type>
 </config>

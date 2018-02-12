@@ -6,7 +6,7 @@
              module="CodeDaily_Mobile"
              resource="Magento_Backend::content"
              sortOrder="800"
-             action="mastering" />
+             action="codedaily" />
 
         <add id="CodeDaily::home_configuration"
              title="Home Configuration"
